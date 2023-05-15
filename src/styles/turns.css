@@ -1,0 +1,15 @@
+.containerPrincipal {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.infoTitle h2 {
+  font-size: 1.7rem;
+  padding-bottom: 10px;
+}
+
+.infoTitle p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  color: red;
+}
