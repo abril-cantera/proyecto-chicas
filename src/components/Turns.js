@@ -16,8 +16,7 @@ const Turns = () => {
   /Horario/
   const handleTimeChange = (e) => {
     const selectedHour = e.target.value.split(':')[0];
-
-    if (selectedHour === '10' || selectedHour === '7') {
+    if (selectedHour === '17' || selectedHour === '10') {
       setSelectedTime(e.target.value);
     } else {
       setSelectedTime('');
