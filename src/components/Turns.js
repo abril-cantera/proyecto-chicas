@@ -27,18 +27,23 @@ const Turns = () => {
     <div className="containerPrincipal">
       <div className="infoTitle">
         <h2>Turnos y Fechas disponibles</h2>
-        <p>Las horas disponibles solo son: 10 hs. y 17 hs.</p>
+        <p>Los turnos para cualquier servicio de pestañas es solo para el horario de las 10 hs. y las 17hs.</p>
       </div>
       <form action="">
-        <input type="date"
+        <input
+          className="inputDate"
+          type="date"
+          id="date"
+          name="date"
           value={defaultDate}
           min={getFormattedDate()}
           onChange={(e) => setDefaultDate(e.target.value)}
         />
         <input
+          className="inputTime"
           type="time"
-          id="myTime"
-          name="myTime"
+          id="time"
+          name="time"
           value={selectedTime}
           onChange={handleTimeChange}
         >

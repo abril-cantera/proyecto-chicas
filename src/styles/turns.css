@@ -13,3 +13,16 @@
   padding-bottom: 10px;
   color: red;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.inputDate {
+  width: 40%;
+}
+
+.inputTime {
+  width: 20%;
+}
