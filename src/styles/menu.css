@@ -113,7 +113,7 @@
 }
 
 .menu-Mobile {
-  padding: 14px 10px;
+  padding: 20px 10px;
   background-color: white;
 }
 
@@ -125,8 +125,12 @@
   border-bottom: 1px solid black;
 }
 
+h1 {
+  font-size: 2.8rem;
+}
+
 .menu-Mobile .sectionMenu-1 h2 {
-  font-size: 2rem;
+  font-size: 2.8rem;
 }
 
 .menu-Mobile .sectionMenu-2 {
