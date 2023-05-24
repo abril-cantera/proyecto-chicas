@@ -5,6 +5,7 @@ import Jobs from './components/Jobs'
 import Turns from './components/Turns'
 import Servicios from './components/Servicios';
 import { Menu } from './components/Menu'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/services' element={<Servicios />} />
         <Route path='*' element={<p> Not found</p>} />
       </Routes>
+      <Footer />
     </HashRouter>
   )
 

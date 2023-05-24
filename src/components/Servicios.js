@@ -1,9 +1,11 @@
 import React from "react";
-
+import '../styles/index.css'
 
 const Servicios = () => {
   return (
-    <h1>Servicios</h1>
+    <div className="size">
+      <h1>Servicios</h1>
+    </div>
   );
 }
 

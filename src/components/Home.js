@@ -1,9 +1,10 @@
 import react from "react";
+import '../styles/index.css'
 
 
 const Home = () => {
   return (
-    <div>
+    <div className="size">
       <h1>Home</h1>
     </div>
   );

@@ -11,3 +11,7 @@ html {
 body {
   font-family: 'Cinzel', serif;
 }
+
+.size {
+  height: 75vh;
+}
