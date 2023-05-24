@@ -1,5 +1,5 @@
 import React from "react";
-import Whatsapp from "./Whatsapp";
+import { Whatsapp } from "./Whatsapp";
 import '../styles/footer.css'
 
 

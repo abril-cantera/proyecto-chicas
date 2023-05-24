@@ -3,7 +3,7 @@ import '../styles/whatsapp.css'
 import { SiWhatsapp } from 'react-icons/si'
 
 
-const Whatsapp = () => {
+export const Whatsapp = () => {
   return (
     <a
       target="_blank"
@@ -13,5 +13,3 @@ const Whatsapp = () => {
     </a>
   );
 }
-
-export default Whatsapp;
